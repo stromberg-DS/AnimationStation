@@ -1,0 +1,55 @@
+lilibcamera-hello 
+libcamera-jpeg
+
+raspberrypi.com/dolibcumentation/computers/camera_software.html
+imagemagick.org/index.php
+
+To install:
+
+sudo apt-get update
+sudo apt-get install imagemagick -y
+
+
+To get feh
+sudo apt-get install libcurl4-openssl-dev libx11-dev libxt-dev libimlib2-dev libxinerama-dev libjpeg-progs
+sudo apt-get install feh
+Manual at man.finalrewind.org/1/feh/
+A more readable manual is at linux.die.net/man/1/feh
+
+
+// Show files in FileList.txt in order
+feh --quiet --hide-pointer -f FileList.txt --slideshow-delay 1
+
+libcamera help: libcamera-still --help
+
+libcamera-vid 
+Option: -t 0 keeps video on screen
+Option: -p x,y,w,h positions and sizes video without cropping
+x and y are view position with y starting at bottom of menu bar
+
+to kill:
+
+kill -kill <pid>
+./main &> cam.txt works, using > cam.txt in the system command does not
+
+
+libcamera look up --viewfinder-width and --roi
+
+// Screen capture:
+scrot Frames/Frame%05d.jpg
+
+scrot will not overwrite exiting files. Instead it appends an underscore
+followed by a sequential 4 digit number e.g., test.jog -> test_0001.jpg
+
+
+To show full screen video on module 3 camera, display time is in ms:
+libcamera-vid --width 1920 --height 1080 -t 10000 -f
+
+To capture a full screen: scrot <filename>
+
+To display full screen: feh -F <filename>
+
+
+
+
+

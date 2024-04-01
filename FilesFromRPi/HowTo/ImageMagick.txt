@@ -1,0 +1,10 @@
+ImageMagick.org instructions are USELESS
+
+Newest version claims to use "magick" as a command THIS IS WRONG
+the command is always "convert"
+
+Crop examples exclusively use rose: THIS IS USELESS
+
+To crop an image:
+
+convert <source file> -crop <width>x<height>+<left edge>+<top edge> <output file name>

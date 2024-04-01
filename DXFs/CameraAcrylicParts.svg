@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   sodipodi:docname="CameraAcrylicParts.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77593293"
+     inkscape:cx="398.2303"
+     inkscape:cy="522.59671"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="false"
+     inkscape:object-paths="false"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:snap-intersection-paths="true" />
+  <defs
+     id="defs2">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path826" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path829" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path831" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path833" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+    <marker
+       id="DistanceX-9"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path961" />
+    </marker>
+    <pattern
+       id="Hatch-7"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path964" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path966" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path968" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-1" />
+    <symbol
+       id="*PAPER_SPACE-1" />
+    <marker
+       id="DistanceX-1"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path1102" />
+    </marker>
+    <pattern
+       id="Hatch-6"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path1105" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path1107" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path1109" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-7" />
+    <symbol
+       id="*PAPER_SPACE-0" />
+    <marker
+       id="DistanceX-8"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path867" />
+    </marker>
+    <pattern
+       id="Hatch-5"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path870" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path872" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path874" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-71" />
+    <symbol
+       id="*PAPER_SPACE-2" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m -35.592432,4.9669787 a 25.4,25.4 0 1 0 -50.8,0 25.4,25.4 0 1 0 50.8,0 z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path1116" />
+    <g
+       id="g2284"
+       transform="translate(-246.41514,-153.9297)">
+      <path
+         d="M 153.95823,276.19158 V 171.09327 a 38.1,38.1 0 0 0 -38.1,-38.1 H 77.822579 a 38.1,38.1 0 0 0 -38.099999,38.1 v 105.09831 z"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         id="path883" />
+      <g
+         id="g1928"
+         transform="translate(0,0.76419998)"
+         style="stroke:#000000">
+        <g
+           id="g1354"
+           style="stroke:#000000">
+          <circle
+             style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             id="path1016"
+             cx="147.60825"
+             cy="180.57738"
+             r="1.9" />
+          <circle
+             style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             id="circle1268"
+             cx="46.072578"
+             cy="180.57738"
+             r="1.9" />
+        </g>
+        <g
+           id="g1360"
+           transform="translate(0,63.300009)"
+           style="stroke:#000000">
+          <circle
+             style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             id="circle1356"
+             cx="147.60825"
+             cy="180.57738"
+             r="1.9" />
+          <circle
+             style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             id="circle1358"
+             cx="46.072578"
+             cy="180.57738"
+             r="1.9" />
+        </g>
+      </g>
+      <g
+         id="g1840"
+         transform="translate(-5.4212902)"
+         style="stroke:#000000">
+        <circle
+           style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+           id="circle1270"
+           cx="127.5617"
+           cy="269.84158"
+           r="1.9" />
+        <circle
+           style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+           id="circle1362"
+           cx="76.961693"
+           cy="269.84158"
+           r="1.9" />
+      </g>
+      <circle
+         style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle1364"
+         cx="96.840408"
+         cy="139.34328"
+         r="1.9" />
+    </g>
+    <path
+       d="M -104.39146,319.35259 V 214.25428 a 38.1,38.1 0 0 0 -38.1,-38.1 h -38.03565 a 38.1,38.1 0 0 0 -38.1,38.1 v 105.09831 z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       id="path1489" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#00ff00;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1491"
+       width="18.950001"
+       height="158.06555"
+       x="-123.34146"
+       y="161.28703" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#00ff00;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1493"
+       width="18.950001"
+       height="158.06555"
+       x="-218.62712"
+       y="161.28703" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#00ff00;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1495"
+       width="18.950001"
+       height="158.06555"
+       x="176.15428"
+       y="79.408806"
+       transform="rotate(90)" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#00ff00;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1497"
+       width="38.000015"
+       height="76.335655"
+       x="281.3526"
+       y="123.34146"
+       transform="rotate(90)" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#ff0000;stroke-width:0.0999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1499"
+       width="25.299999"
+       height="114.23566"
+       x="294.05258"
+       y="104.39146"
+       transform="rotate(90)" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#000080;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1501"
+       width="44.350006"
+       height="114.23565"
+       x="275.00259"
+       y="104.39146"
+       transform="rotate(90)" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#000080;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1503"
+       width="9.4250002"
+       height="158.06555"
+       x="-113.81646"
+       y="161.28703" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#000080;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1505"
+       width="44.350006"
+       height="114.23565"
+       x="176.15428"
+       y="104.39147"
+       transform="rotate(90)" />
+    <rect
+       style="fill:none;fill-opacity:0.48718;stroke:#000080;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="rect1507"
+       width="9.4250002"
+       height="158.06555"
+       x="-218.62712"
+       y="161.28702" />
+    <circle
+       style="fill:none;fill-opacity:0.48718;stroke:#000080;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="circle1509"
+       cx="-113.81646"
+       cy="275.00259"
+       r="2.49" />
+    <circle
+       style="fill:none;fill-opacity:0.48718;stroke:#000080;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="circle1511"
+       cx="-113.81646"
+       cy="220.50429"
+       r="2.49" />
+    <circle
+       style="fill:none;fill-opacity:0.48718;stroke:#000080;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="circle1513"
+       cx="-209.20212"
+       cy="220.50429"
+       r="2.49" />
+    <circle
+       style="fill:none;fill-opacity:0.48718;stroke:#000080;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+       id="circle1515"
+       cx="-209.20212"
+       cy="275.00259"
+       r="2.49" />
+    <path
+       d="M 129.52588,197.62009 V 92.521783 a 38.1,38.1 0 0 0 -38.100005,-38.1 H 53.390224 a 38.1,38.1 0 0 0 -38.099999,38.1 V 197.62009 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:8.8;stroke-dasharray:none;stroke-opacity:1"
+       id="path2" />
+    <circle
+       style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8.8;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2"
+       cx="120.10088"
+       cy="153.2701"
+       r="2.49" />
+    <circle
+       style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8.8;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3"
+       cx="120.10088"
+       cy="98.77179"
+       r="2.49" />
+    <circle
+       style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8.8;stroke-dasharray:none;stroke-opacity:1"
+       id="circle4"
+       cx="24.715223"
+       cy="98.77179"
+       r="2.49" />
+    <circle
+       style="fill:none;fill-opacity:0.48718;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8.8;stroke-dasharray:none;stroke-opacity:1"
+       id="circle5"
+       cx="24.715223"
+       cy="153.2701"
+       r="2.49" />
+    <circle
+       style="fill:none;stroke:#008000;stroke-width:0.2"
+       id="path1"
+       cx="139.70001"
+       cy="139.70001"
+       r="139.60001" />
+  </g>
+</svg>

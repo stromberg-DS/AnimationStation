@@ -1,0 +1,12 @@
+Exit full screen: Alt F4 Does close camera but gives the usual segmentaion
+fault. Clear it with ctrl Z. Leaves main running, too. Kill it
+in task manager.
+
+Kbd commands
+1 - Frame back
+2 - Frame forward
+3 - Play
+4 - Record 
+5 - Erase
+6 - Restart
+7 - Shutdown

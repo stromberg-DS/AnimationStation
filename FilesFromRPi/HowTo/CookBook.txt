@@ -1,0 +1,11 @@
+Part1 - Window with a button and a text box
+Part2 - Add graphis to button in Glade under General/Button Content
+either Stock Button or Add Custom Content
+Stock button just shows text, clicking "Always Show Image" shows icon and text
+Use "Add Custom Content" to put an image in the button, drag a GTKImage
+to the button area after selecting "Add Custom Content" then stock
+icons show just the icon (need to adjust size)
+Part3 - Radio Buttons. DO NOT DRAG. Click on GTKRadioButton then on the window
+to place it. After the usual, buttons need to be in a group in "General"
+Part 4 - Check boxes
+Part 5 - Toggle button and spin button.

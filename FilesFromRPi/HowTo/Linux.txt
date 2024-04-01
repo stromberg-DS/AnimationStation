@@ -1,0 +1,8 @@
+To get PIDs
+
+ps  // process status only lists for current terminal
+  
+ps -A // lists all  PID TTY TIME CMD, CMD is calling name of program
+
+ps aux // gives more full info.Likely not needed
+ps -C command_name // List only requested processes

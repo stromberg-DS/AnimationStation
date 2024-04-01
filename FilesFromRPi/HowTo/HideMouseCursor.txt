@@ -1,0 +1,19 @@
+Many site say to install and us unclutter. However it seems to be 
+no longer available. When it is, it allows the cursor to disappear
+with the command line:
+
+unclutter -idle 0
+
+This makes the cursor disappear only when the mose is not moving.
+
+The less desireable alternative makes the cursor always invisible
+but keeps the mouse working. To do this:
+
+sudo nano /etc/lightdm/lightdm.conf
+
+and add the line:
+
+xserver-command = X -nocursor
+
+Although the mouse still works it seems pretty flakey. But you can open
+a terminal a edit the file and remove the line to get the cursor back.

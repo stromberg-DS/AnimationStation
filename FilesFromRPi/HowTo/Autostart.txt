@@ -1,0 +1,74 @@
+rc.local
+
+sudo nano /etc/rc.local
+
+before the exit 0 line, add execution line using absolute path followed by &
+& sets the program in a different thread so the boot process can continue.
+
+.bashrc
+ 
+modify the .bashrc  file. Your program 
+will run when you log in and also every time when a new terminal 
+is opened, or when a new SSH connection is made. Put your command at the 
+bottom of /home/pi/.bashrc
+
+init.d directory
+
+sudo cp /home/pi/sample.py /etc/init.d/
+cd /etc/init.d
+sudo nano sample.py
+
+Enter into the script file
+# /etc/init.d/sample.py
+### BEGIN INIT INFO
+# Provides:          sample.py
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start daemon at boot time
+# Description:       Enable service provided by daemon.
+### END INIT INFO
+
+
+crontab
+
+sudo crontab -e
+
+@reboot sudo python /home/pi/Desktop/pyprog/pytest.py
+ /home/pi/Desktop/pyprog/log.txt
+
+All these methods seem to run in the background or not at all 
+
+
+To wait until X windows is up before executing it seeems 
+autostart is the only way
+
+Desktop environment is LXDE-pi
+
+mkdir /home/pi/.config/autostart
+nano /home/pi/.config/autostart/clock.desktop
+
+Enter:
+[Desktop Entry]
+Type=Application
+Name=Clock
+Exec=/usr/bin/python3 /home/pi/clock.py
+
+If a program needs a terminal window the usual treminal
+execution does not work. Instead, install:
+
+sudo apt-get install xterm
+
+then the autostart is this:
+
+[Desktop Entry]
+Comment=Type=Application
+Name=Animation
+Comment=Exec=lxterminal /home/rpi/projects/Animation/main
+Exec=/usr/bin/lxterm /home/rpi/projects/Animation/main
+
+It seems all files in /home/rpi/.config/autostart are run
+on startup. Not sure buyt there is a LXInput.autostart added 
+when lxterm was inbstalled.
+

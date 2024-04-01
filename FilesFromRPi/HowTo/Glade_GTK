@@ -1,0 +1,98 @@
+projects/GladeCookBook has a folder for each part
+
+Glade needs GTK (GTK is also called the GIUMP toolkit)
+
+To get GTK: sudo apt-get install libgtk-3-dev
+
+To use, the makefile needs:
+
+LIBS = `pkg-config --libs gtk+3.0`
+CFLAGS = `pkg-config --cflags gtk+3.0`
+
+Library is installed at:
+/usr/include/gtk-3.0/gtk
+
+Include: #include <gtk/gtk.h>
+
+ref: https://raspberry-projects.com/pi/programming-in-c/gui-programming-in-c/gtk/installing-gtk
+
+Part 1:
+
+To get glade: udo apt-get install glade
+
+A Glade item will show up in the Programming menu.
+
+To use:
+
+YouTube series starts at watch?v=g-KDOH_uqPk
+
+Create a new project (upper left next to Open)
+Widget tree is on the left, layout center, parameters on left.
+From "Toplevels" select GtkWindow.
+Add a continer(s) from "Containers" to hold items. GtkFixed gives a fixed grid container.
+Drag a GtkButton from "Control"
+
+In general tab add the ID to be used in the program. Packing tabv sets the position.
+Common tab sets the size.
+
+Add a GTKLabel from the display menu. Size it using "Common".
+IN "General" edit text attributes. Pick foreground color and font description
+Remove the label and add an ID using "General". Can add tooltip in "Common" to show on mouse over.
+Can add tooltip tp button too.
+
+Set "Signals" for the button. Slect "Clicked" In <type here> typing just "on" selects a default name:
+on_button1_clicked. To select, click on name then hit enter.
+
+Part1 - Window with a button and a text box
+Part2 - Add graphis to button in Glade under General/Button Content
+either Stock Button or Add Custom Content
+Stock button just shows text, clicking "Always Show Image" shows icon and text
+Use "Add Custom Content" to put an image in the button, drag a GTKImage
+to the button area after selecting "Add Custom Content" then stock
+icons show just the icon (need to adjust size)
+Part3 - Radio Buttons. DO NOT DRAG. Click on GTKRadioButton then on the window
+to place it. After the usual, buttons need to be in a group in "General"
+Part 4 - Check boxes
+Part 5 - Toggle button and spin button. Toggle button is nothing new. Spin is
+different. In "General" click the pencil in "Adjustment" and slect "New".
+The adjustment box will fill with "adjustment1" and a new item shows up in the
+tree. Clickin in the tree brings up a window to set the adjustment values,
+It is adjusted by the + or - or by the mouse wheel in the number area of the
+spin button. No signal is attached to the spin here but lots of signals are
+available to take action when it changes.
+Part 6 - Slider switch and combo box. His slider defaults to off/on labels.
+I can find no way to add 
+Part 7 - Combo box. He leaves a LOT of details out here:
+a) Create a combo box, easy, drop down "Control" and pick it.
+b) Create a GtkListStore, it is NOT in any of the standard areas but is in 
+the little drop down arrow right of the "Display"
+c) In the list store, set the column type (usually gchararray) name the column.
+Apparently there can be multiple columns. Next, add rows to the list and
+edit each row clicking on the pencil on the right.
+d) In the combo "General" set the list store ID in the Tree Model box by
+clicking the pencil and selecting it.
+Check "Has Entry" and Set Entry Text Column to 0. 
+e) Eventually, magically, much, much, later than he says, a GtkEntry will
+appear below the combo box. When that eventually shows, stuff works.
+f) The entry not the combo box contains the default box text as placeholder
+text in "General". This contains the icon too. DO not use the "Stock Icon" he
+uses. Instead use "Primary Icon Name" to select.
+OK AFTER ALL THIS AT 3:53 HE ACTUALLY SHOWS HOW  
+Signals are available for both entry and combo box. In the combo box the changed
+needs additional data, namely entry1. CLick on the user data pencil to sleect. 
+Don't need both.
+Part 8 - Colors and File Chooser. 
+PArt 9 - Scroll bars. Volume seems to set up automatically. Scroll bar gets
+one of those magic "Adjustments" To get the magic adjustment, Go to General>
+Scrollbar Attributes>Adjustment. Click on the pencil, select new. Then
+click on the new adjustment that pops up in the tree and set it up.
+Signal is under Scrollbar not adjustment.
+THe override color and dynamic range adjustment do not work.
+Other places say the color is now set through css.
+Part 10 - Stack. Has pages set number in General. Need switcher to operate
+Must connect switcher to stack in General. Add a fixed container to a page
+Title will show in the switcher. To get to the next page, click twice on
+the page selector then select the Stack in the tree at left.
+Can cut and paste previous widgets into the GtkFixed boxes.
+The switcher does not require any C it runs on its own.
+The stack also allows transitions between pages.
